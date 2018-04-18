@@ -1,0 +1,48 @@
+.modal-header, h4, .close {
+      background-color: #000;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+}
+  .gif {
+	float: left;
+	padding: 2.5px;
+}
+.mainImage {
+	width: 100%;
+}
+.modal-dialog {
+	width: 75%;
+}
+#caption {
+	padding: 2px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+#modalThumbs {
+	height: 250px;
+	overflow-x: scroll;
+    background-color: #E7E7E7;
+    padding: 10px;
+    align-content: center;
+}
+
+.modal-footer {
+      background-color: #f9f9f9;
+}
+@media screen and (max-width: 600px) {
+.gif {
+	width: 100px;
+}
+.modal-dialog {
+	width: 90%;
+}
+}
+@media screen and (max-width: 800px) {
+.gif {
+	width: 150px;
+}
+.modal-dialog {
+	width: 90%;
+}
+}
